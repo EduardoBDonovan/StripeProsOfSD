@@ -1,0 +1,14 @@
+.navbar-item {
+  background-color: white;
+}
+
+.nav-image-item {
+  display: inline-block;
+  align-items: top;
+  width: 100vh;
+  height: 100vh;
+}
+
+.nav-contact-item {
+  font-weight: bold;
+}
