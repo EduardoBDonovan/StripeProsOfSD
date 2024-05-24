@@ -1,0 +1,59 @@
+/* Colors: yellow = #ffc425, brown = #2F241D*/
+
+.intro-section {
+  width: 100%;
+  padding: 0px;
+}
+
+.intro-container {
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+.intro-row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-column {
+  text-align: center;
+  color: #2f241d;
+  font-family: "Squada One", sans-serif;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.image-column {
+  padding: 0;
+  height: 100%;
+}
+
+.image-item {
+  width: 100%;
+  height: 55vh;
+  border-radius: 15px;
+  object-fit: cover;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.request-section {
+  width: 100%;
+  padding: 100px;
+  background-color: #2f241d;
+}
+
+.request-text-column {
+  font-family: "Squada One", sans-serif;
+  color: #ffc425;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-25%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

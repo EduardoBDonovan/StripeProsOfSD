@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "../assets/StripeProsOfSD.png";
+import Logo from "../assets/StripeProsOfSD_nb.png";
 import { Navbar, Nav, Container, NavbarToggle } from "react-bootstrap";
 
 function NavbarComp() {
   return (
     <Navbar className="navbar-item" expand="lg">
-      <Container>
+      <Container className="navbar-container">
         <Navbar.Brand href="/">
           <img
             src={Logo}
@@ -18,7 +18,7 @@ function NavbarComp() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <Nav.Link className="nav-contact-item" href="/contact">
-              Contact
+              <strong className="squada-one-regular">Contact</strong>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
