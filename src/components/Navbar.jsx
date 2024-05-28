@@ -7,7 +7,7 @@ function NavbarComp() {
   return (
     <Navbar className="navbar-item" expand="lg">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/stripeprosofsd/">
           <img
             src={Logo}
             width="100vh"

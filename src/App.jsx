@@ -11,8 +11,7 @@ function App() {
       <Router>
         <NavbarComp />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </Router>
