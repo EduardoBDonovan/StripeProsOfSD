@@ -1,0 +1,27 @@
+.error-container {
+  width: 100%;
+  padding: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.error-row {
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.error-col {
+  text-align: center;
+  text-shadow: 2px 2px 0 var(--logo-brown), -2px -2px 0 var(--logo-brown),
+    2px -2px 0 var(--logo-brown), -2px 2px 0 var(--logo-brown);
+  color: var(--logo-yellow);
+  font-family: "Squada One", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+}

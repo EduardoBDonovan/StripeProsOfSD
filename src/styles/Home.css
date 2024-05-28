@@ -1,50 +1,84 @@
 /* Colors: yellow = #ffc425, brown = #2F241D*/
 
-.intro-section {
-  width: 100%;
-  padding: 0px;
+:root {
+  --logo-yellow: #ffc425;
+  --logo-brown: #2f241d;
 }
 
 .intro-container {
   width: 100%;
-  padding: 20px;
-  margin: 0;
+  padding: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: white;
+  background-image: url("../assets/parking_lot_wcar-transformed.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
-.intro-row {
+.row {
+  width: 100%;
+  margin: 0;
   align-items: center;
   justify-content: space-between;
 }
 
-.text-column {
+.intro-text-column {
   text-align: center;
-  color: #2f241d;
+  text-shadow: 2px 2px 0 var(--logo-brown), -2px -2px 0 var(--logo-brown),
+    2px -2px 0 var(--logo-brown), -2px 2px 0 var(--logo-brown);
+  color: var(--logo-yellow);
   font-family: "Squada One", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
   animation: slideIn 1.5s ease-in-out;
 }
 
-.image-column {
-  padding: 0;
-  height: 100%;
-}
-
-.image-item {
+.request-container {
   width: 100%;
-  height: 55vh;
-  border-radius: 15px;
-  object-fit: cover;
-  animation: slideIn 1.5s ease-in-out;
-}
-
-.request-section {
+  margin: 0;
   width: 100%;
-  padding: 100px;
-  background-color: #2f241d;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: var(--logo-brown);
 }
 
 .request-text-column {
+  text-align: center;
+  color: white;
   font-family: "Squada One", sans-serif;
-  color: #ffc425;
+  padding-left: 100px;
+  padding-right: 100px;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.experience-container {
+  width: 100%;
+  padding: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+
+.experience-text-column {
+  text-align: center;
+  color: var(--logo-brown);
+  font-family: "Squada One", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.experience-button {
+  background-color: var(--logo-yellow);
+  border-color: var(--logo-yellow);
+  text-decoration: none;
+  color: var(--logo-brown);
+}
+
+.contact-a {
+  text-decoration: none;
+  color: var(--logo-brown);
 }
 
 @keyframes slideIn {

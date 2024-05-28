@@ -1,0 +1,30 @@
+:root {
+  --logo-yellow: #ffc425;
+  --logo-brown: #2f241d;
+}
+
+.footer-container {
+  background-color: var(--logo-brown);
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+.footer-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-column {
+  text-align: center;
+  color: white;
+  font-family: "Squada One", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.contact-tag {
+  text-decoration: none;
+  color: white;
+}

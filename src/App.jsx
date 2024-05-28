@@ -1,10 +1,9 @@
-import { useState } from "react";
 import "./App.css";
 import NavbarComp from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,9 +12,9 @@ function App() {
         <NavbarComp />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
