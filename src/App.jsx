@@ -11,7 +11,7 @@ function App() {
       <Router>
         <NavbarComp />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/stripeprosofsd/" element={<Home />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
