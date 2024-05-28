@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/StripeProsOfSD_nb.png";
-import { Navbar, Nav, Container, NavbarToggle } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 import "../styles/Navbar.css";
 
 function NavbarComp() {
