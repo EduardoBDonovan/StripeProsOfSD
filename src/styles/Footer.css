@@ -4,7 +4,7 @@
 }
 
 .footer-container {
-  background-color: var(--logo-brown);
+  background-color: white;
   width: 100%;
   padding: 20px;
   margin: 0;
@@ -17,7 +17,7 @@
 
 .footer-column {
   text-align: center;
-  color: white;
+  color: var(--logo-brown);
   font-family: "Squada One", sans-serif;
   padding-left: 100px;
   padding-right: 100px;
@@ -26,5 +26,5 @@
 
 .contact-tag {
   text-decoration: none;
-  color: white;
+  color: var(--logo-brown);
 }
